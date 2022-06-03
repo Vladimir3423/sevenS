@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Убейте меня</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <!--  <link href="css/main.css" rel="stylesheet"  type = "text/css">-->
+  </head>
+  <body>
+
+
+
+<header class="header" >
+
+
+  <div class="conteiner">
+
+    <div class="nav">
+      <img src="data:image/png;base64,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" alt="Lada" class="logo">
+    </div>
+
+      <div class="Home">
+        <a href="https://google.com" class="Goga" target="_blank">главная</a>
+      </div>
+
+      <div class="Contakts">
+        <a href="https://google.com" class="Cont" target="_blank">контакты</a>
+      </div>
+
+      <div class="Protc">
+        <a href="https://google.com" class="PR" target="_blank">прочее</a>
+      </div>
+
+     <div >
+      <a href="https://youtube.com"target="_blank" class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          </a>
+      </div>
+    </div>
+      <div class="heder-contend">
+
+        <div class="offer">
+          <div class="merts">
+          </div>
+            <div class="heder-block">
+              <h1 class="help-text"> LADA ВАЗ-2107 </h1>
+              <p >Родная семерка</p>
+              <p class="intro">ВАЗ 2107 стал последним классическим<br>
+                               седаном. Хотя уже и вышли<br>
+                               «восьмерка» с «девяткой», но про<br>
+                               данную модель не забыли. Так и<br>
+                               осталась «семёрка» в памяти многих<br>
+                               советских граждан. Что же еще<br>
+                               интересно в ВАЗ 2107?</p><br>
+                               <br>
+                                <p>скоро все нормально будет.<br> Aвтор Вова </p>
+
+            <a href="https://youtube.com" class="order">заказать тест драйв </a>
+            </div>
+
+          <div class="slider">
+
+            <img   class="sevevk" src="http://i.otzovik.com/objects/b/20000/15979.png" style = "width="200px" height ="600px"" alt="Lada">
+
+            <div class="slider-naw">
+              <span class="le">
+                ←
+              </span>
+              <div class="treeger">
+                <span>1</span>
+                <span class="actev">2</span>
+                <span>3</span>
+              </div>
+              <span class="ra">
+                →
+              </span>
+            </div>
+
+            <div class="news">
+          <a href="#">
+              <h4 style="margin-bottom: 2px; ">Типо рекламма</h4>
+              <p style="margin-top: 2px; margin-bottom: 19px;">рекламма</p>
+
+              <a>
+            </div>
+
+          </div>
+
+      </div>
+
+      </div>
+
+</header>
+
+
+
+
+       <style media="screen">
+body{
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+}
+
+.header{
+  background: #8BB9FE;
+}
+
+.conteiner{
+  margin-left: 22px;
+  margin-right: 92px ;
+}
+
+.Goga {
+  color: #000;
+  margin-right:  15px;
+  margin-left: 1000px;
+}
+
+.Cont {
+  color: #000;
+  margin-right: 15px;
+}
+
+.PR {
+  color: #000;
+  margin-right: 400px;
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+.menu{
+  display: block;
+  margin-top: -15px;
+
+}
+
+.menu span{
+
+  background: #000;
+  display: block;
+  width: 54px;
+  height: 2px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+}
+
+.menu span:nth-child(2)  {
+    width: 44px;
+}
+
+.menu span:nth-child(3)  {
+    width: 34px;
+}
+
+.heder-contend {
+margin-top: 83px;
+display: flex;
+justify-content: space-between;
+}
+
+.offer{
+
+margin-top: -22px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.merts{
+
+
+
+}
+
+.merts span{
+
+}
+body{
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+}
+
+.header{
+  background: #fff;
+  padding-bottom: 75px;
+  padding-top: 30px;
+}
+
+.conteiner{
+  margin-left: 22px;
+  margin-right: 92px ;
+}
+
+.Goga {
+  color: #000;
+  margin-right:  15px;
+  margin-left: 1000px;
+}
+
+.Cont {
+  color: #000;
+  margin-right: 15px;
+}
+
+.PR {
+  color: #000;
+  margin-right: 166px;
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+.menu{
+  display: block;
+  margin-top: -15px;
+
+}
+
+}
+
+.menu span{
+
+  background: #000;
+  display: block;
+  width: 54px;
+  height: 2px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-top: 162px;
+
+
+}
+
+
+
+.heder-block{
+
+  margin-left:  50px;
+}
+
+.intro{
+  margin-right: 275px;
+font-size: 32px;
+font-family: 'Inter', sans-serif;
+}
+
+.order{
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+  border-top-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 15px 36px;
+  text-decoration: none;
+}
+
+.order:hover{
+
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+  border-top-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 18px 39px;
+  text-decoration: underline ;
+}
+
+.news{
+  margin-top: 87px;
+  margin-left: -920px;
+
+
+}
+
+.news a {
+    margin-left: -900px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.sevevk{
+
+  display: block;
+}
+
+
+.slider-naw {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+}
+.le{
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  margin-right: 10px;
+  display: block;
+}
+
+.ra{
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  margin-left: 10px;
+  display: block;
+}
+
+.treeger{
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  align-items: center;
+}
+
+.treeger span {
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid #000;
+  border-top-color: rgb(0, 0, 0);
+  display: block;
+  opacity: 0.41;
+}
+
+.treeger span.actev{
+  opacity: 1;
+}
+
+</style>
+
+  </body>
+
+
+</html>
